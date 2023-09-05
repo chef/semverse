@@ -26,15 +26,25 @@ $ gem install semverse
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a new `Version` object:
+
+```
+Semverse::Version.new('1.2.3')
+```
+
+Create a new `Constraint` object:
+
+```
+Semverse::Constraint.new('>1.4.3')
+```
 
 ## Contributing
 
-1. Fork it ( <http://github.com/chef/semverse/fork> )
+1. Fork it ( <http://github.com/berkshelf/semverse/fork> )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-[travis]: http://travis-ci.org/berkshelf/semverse
 [gem]: https://rubygems.org/gems/semverse
+[travis]: http://travis-ci.org/berkshelf/semverse
